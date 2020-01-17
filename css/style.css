@@ -1,9 +1,9 @@
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: #b3b3b3;
+  color: #262322;
   background: #fff;
 }
 
@@ -64,6 +64,12 @@ textarea.form-control {
   border-width: 2px;
 }
 
+.btn.btn-primary.btn-block {
+  border-color: #f96982;
+  background: #f96982;
+  font-weight: bold;
+}
+
 .btn.btn-primary:hover,
 .btn.btn-primary:active,
 .btn.btn-primary:focus {
@@ -77,7 +83,7 @@ textarea.form-control {
 
 .btn.btn-outline-primary {
   border-width: 2px;
-  color: #f73859;
+  color: #df6d80;
 }
 
 .btn.btn-outline-primary:hover,
@@ -194,7 +200,7 @@ header .navbar .dropdown-menu:before {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-  background: #f73859;
+  background: #c02740;
   color: #fff;
 }
 
@@ -304,7 +310,7 @@ body.offcanvas-open .site-wrap {
 }
 
 .offcanvas_menu ul li.active a {
-  color: #f73859;
+  color: #df6d80;
 }
 
 .offcanvas_menu ul.social li {
@@ -361,7 +367,7 @@ main {
 
 .home-button {
   top: 20px;
-  color: #f73859;
+  color: #df6d80;
   font-size: 20px;
   position: absolute;
 }
@@ -406,7 +412,7 @@ main {
   left: 0;
   bottom: 0;
   right: 0;
-  background: #f73859;
+  background: #df6d80;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
@@ -512,7 +518,7 @@ main {
 }
 
 .site-subscribe {
-  background: #f73859;
+  background: #df6d80;
   padding: 2em 0;
 }
 
@@ -678,7 +684,7 @@ main {
 
 .custom-media .icon span {
   font-size: 70px;
-  color: #f73859;
+  color: #df6d80;
 }
 
 .custom-media h3 {
@@ -1009,7 +1015,7 @@ main {
   position: relative;
   width: 0px;
   font-size: 30px;
-  color: #f73859;
+  color: #df6d80;
 }
 
 .load-more {
@@ -1022,7 +1028,7 @@ main {
 }
 
 .load-more:hover {
-  background: #f73859;
+  background: #df6d80;
   color: #fff;
 }
 
@@ -1062,7 +1068,7 @@ main {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: #f73859;
+  background: #df6d80;
 }
 
 .text-black {
@@ -1091,7 +1097,7 @@ main {
 
 .media-feature .icon {
   font-size: 60px;
-  color: #f73859;
+  color: #df6d80;
 }
 
 .media-feature h3 {
@@ -1107,7 +1113,7 @@ main {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   z-index: 2;
-  border-bottom: 10px solid #f73859;
+  border-bottom: 10px solid #df6d80;
 }
 
 .media-custom {
@@ -1214,7 +1220,7 @@ main {
 }
 
 .site-footer a {
-  color: #f73859;
+  color: #df6d80;
   border-bottom: 1px solid transparent;
 }
 
