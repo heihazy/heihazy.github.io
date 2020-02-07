@@ -7,7 +7,7 @@
     setTimeout(function() {
       $(".spinner").addClass("hide");
       $(".site-wrap").removeClass("hide");
-    }, 3000);
+    }, 2000);
   });
 
   // loader

@@ -24,14 +24,17 @@
 
     <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    
-    <div class="site-wrap">
+    <div class="spinner">
+      <div class="cube1"></div>
+      <div class="cube2"></div>
+    </div>
+    <div class="site-wrap hide">
 
       <a href="#" class="offcanvas-toggle js-offcanvas-toggle">Menu</a>
       <div class="offcanvas_menu" id="offcanvas_menu">
@@ -58,8 +61,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
         <a href="index.html" class="home-button"><span class="fa fa-home"></span></a>
         <h1 class="mb-5">Experience</h1>
-        <div class="mb-5">
-          <ul class="resume-list">
+        <div class="mb-5"data-aos="fade-down" >
+          <ul class="resume-list" >
             <li>
               <h3>Marketing Project Leader, KOKORO Oy</h3>
               <p class="date">Jun 2019 - Oct 2019</p>
@@ -85,9 +88,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </div>
 
 
-        <h1 class="mb-5">Education</h1>
-        <div class="mb-5">
-          <ul class="resume-list">
+        <h1 class="mb-5" data-aos="fade-down">Education</h1>
+          <div class="mb-5"  >
+          <ul class="resume-list"data-aos="fade-down">
             <li>
               <h3>South-Eastern University of Applied Sciences</h3>
               <p class="date">2014 - 2018</p>
@@ -117,6 +120,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      setTimeout(function(){
+        AOS.init();
+      },3500)
+    </script>
   </body>
 </html>
